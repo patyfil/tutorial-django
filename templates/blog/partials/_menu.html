@@ -1,0 +1,15 @@
+{% load static %}
+<header>
+  <nav class="navbar">
+
+    <a href="{% url 'index' %}">
+      <img src="{% static 'assets/study.png' %}" alt="logo pessoa estudando">
+    </a>
+  
+    <ul class="lista">
+      <li><a href="{% url 'index' %}">Home</a></li>
+      <li><a href="{% url 'sobre' %}">Sobre</a></li>
+      <li><a href="{% url 'contato' %}">Contato</a></li>
+    </ul>
+  </nav>
+</header>

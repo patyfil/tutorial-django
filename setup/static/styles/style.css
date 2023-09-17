@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: 'Atma', sans-serif;
+}
+
+body {
+  background-color: #262527;
+}
+
+/* Estilizando o menu de navegação */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: center;
+  background-color: #87569e;
+  overflow: hidden;
+  text-align: center;
+  /* Centralizar o texto na navbar */
+  padding: 15px;
+}
+
+.navbar img {
+  width: 60px;
+}
+
+/* Estilizando a lista de links */
+.lista {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  /* Centralizar horizontalmente */
+
+}
+
+/* Estilizando os itens da lista */
+.lista li {
+  display: inline;
+  margin-right: 20px;
+  /* Espaçamento entre os itens */
+}
+
+.lista li:not(:last-child) {
+  margin-right: 200px;
+  /* Espaçamento entre os itens, exceto o último */
+}
+
+
+/* Estilizando os links na lista */
+.lista li a {
+  text-decoration: none;
+  /* Remove sublinhado dos links */
+  color: white;
+  /* Cor do texto branco */
+  font-size: 26px;
+}
+
+/* Estilizando os links na lista quando o mouse passa por cima */
+.lista li a:hover {
+  text-decoration: underline;
+  /* Adiciona sublinhado ao passar o mouse por cima */
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  height: calc(90vh - 53px);
+}
+
+.principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  color: white;
+}
+
+.principal h1 {
+  font-size: 60px;
+  padding-bottom: 20px;
+}
+
+.titulo-pg-inicial {
+  color: rgb(207, 37, 156);
+}
+
+.titulo-pg-sobre {
+  color: #e68d09;
+}
+
+.titulo-pg-contato {
+  color: #11ace9;
+}
+
+/* Estilizando o rodapé */
+footer {
+  background-color: #87569e;
+  color: white;
+  /* Cor do texto branco no rodapé */
+  text-align: center;
+  padding: 15px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p, strong {
+  font-size: 20px;
+}
